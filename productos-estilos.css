@@ -1,0 +1,184 @@
+
+/* Estilos para la sección del carrusel */
+.playstation {
+    padding: 2px; /* Espacio interno alrededor del carrusel */
+    background-color:  #eee; /* Color de fondo opcional */
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    width:95%;
+    height: 520px;
+    
+}
+
+.nintendoSwitch {
+    padding: 2px; /* Espacio interno alrededor del carrusel */
+    background-color: #f0f0f0; /* Color de fondo opcional */
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    width:95%;
+    height: 520px;
+}
+
+xboxOne{
+    padding: 2px; /* Espacio interno alrededor del carrusel */
+    background-color: #f0f0f0; /* Color de fondo opcional */
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    width:95%;
+    height: 520px;
+}
+
+/* Estilos para el contenedor principal del carrusel */
+.swiffy-slider {
+    max-width: 100%; /* Ancho máximo del carrusel */
+    margin: 0 auto; /* Centrar el carrusel en la página */
+    overflow: hidden; /* Ocultar contenido que desborde */
+    position: relative; /* Asegurarse de que los elementos secundarios se posicionen correctamente */
+}
+
+/* Estilos para la lista de elementos del carrusel */
+.slider-container {
+    display: flex; /* Mostrar los elementos en una fila */
+    flex-direction: row;
+    list-style: none; /* Quitar la lista de viñetas */
+    padding: 0; /* Quitar el espacio interno */
+    margin: 0; /* Quitar el espacio externo */
+    transition: transform 5s ease-in-out; /* Efecto de desplazamiento suave */
+}
+
+/* Estilos para cada elemento del carrusel */
+.slider-container li {
+    flex: 0 0 20%; /* No expandir ni contraer los elementos */
+    width: 10%; /* Ancho completo de cada elemento */
+    margin-right: px; /* Espacio entre elementos (ajusta según sea necesario) */
+    
+}
+
+/* Estilos para las tarjetas (cards) */
+.cardsClass .card {
+    border: 1px solid #ddd; /* Borde de la tarjeta */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra de la tarjeta */
+    transition: transform 0.2s ease-in-out; /* Efecto de transformación suave */
+    width: 280px;
+    height: 450px;
+    margin-bottom: 50px;
+    
+}
+
+/* Estilos para las imágenes dentro de las tarjetas */
+.card-img-top {
+    width: 100%; /* Ancho completo de la imagen */
+    height: 10px; /* Mantener la relación de aspecto original */
+}
+
+/* Estilos para el contenido de la tarjeta */
+.cardsClass .card-body {
+    padding: 5px; /* Espacio interno del contenido de la tarjeta */
+    height: 350px;
+}
+
+/* Estilos para el título de la tarjeta */
+.cardsClass .card-body h3 {
+    font-size: 1em; /* Tamaño de fuente del título */
+    margin-top: 10px; /* Espacio superior del título */
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* Estilos para los párrafos de la tarjeta */
+.cardsClass .card-body p {
+    margin: 5px 0; /* Espacio entre párrafos */
+    text-align: center;
+}
+
+/* Estilos para los botones de navegación del carrusel */
+.slider-nav {
+    background-color:black; /* Color de fondo del botón */
+    color:#eee;  /* Color de texto del botón */
+    border-radius: 50%; /* Botón redondeado */
+    width: 60px; /* Ancho del botón */
+    height: 60px; /* Altura del botón */
+    cursor: pointer; /* Cambiar el cursor al pasar el ratón */
+    margin: 5px ; /* Espacio entre botones */
+    margin-top: 150px;
+}
+
+/* Estilos para el botón de navegación activo */
+.slider-nav.active {
+    background-color: #ff6600; /* Cambiar el color de fondo para el botón activo */
+}
+
+/* Estilos para los indicadores del carrusel */
+.slider-indicators {
+    text-align: center; /* Centrar los indicadores */
+    margin-top: 10px; /* Espacio superior de los indicadores */
+}
+
+/* Estilos para los indicadores individuales */
+.slider-indicators button {
+    background-color: #ddd; /* Color de fondo del indicador inactivo */
+    border: none; /* Sin borde */
+    border-radius: 50%; /* Indicador redondeado */
+    width: 10px; /* Ancho del indicador */
+    height: 10px; /* Altura del indicador */
+    cursor: pointer; /* Cambiar el cursor al pasar el ratón */
+    margin: 0 5px; /* Espacio entre indicadores */
+}
+
+/* Estilos para el indicador activo */
+.slider-indicators button.active {
+    background-color: #007bff; /* Cambiar el color de fondo para el indicador activo */
+}
+
+
+
+/* CALCULADORA */
+
+.containerCalculadora {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+h4 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color:rgba(0, 0, 0, 0.837);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:rgba(0, 0, 0, 0.837);
+}
+
+#resultado {
+    margin-top: 20px;
+    font-weight: bold;
+}

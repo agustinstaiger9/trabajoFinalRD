@@ -1,0 +1,29 @@
+/* CSS DE HORARIOS Y TABLA */
+
+.dias {
+    font-weight: bold;
+    color: blue;
+    font-size: 20px;
+}
+
+.horarios {
+    font-style: italic;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: lightgray;
+}
+
+/* Termina horarios */
