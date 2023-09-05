@@ -1,26 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Horarios</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./horarios-estilos.css">
+    <scrpit src="javascript.js"></scrpit>
+
 </head>
+
 <body>
     <header>
-        <nav class="nav">
-            <ul>
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-                <li><a href="./horarios.html">Horarios de atención</a></li>
-                <li><a href="./productos.html">Productos</a></li>
+    <!-- Navbar de Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="./index.html">SN GAMERS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./horarios.html">Horarios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./quienes-somos.html">Quienes Somos</a>
+                </li>
             </ul>
-        </nav>
+        </div>
+    </nav>
     </header>
 
     <main>
         <h2>Nuestros horarios</h2>
-        <table border="1">
+        <table border="1" class="tablaDias">
             <tr>
                 <th class="dias">Día</th>
                 <th class="horarios">Horario</th>
@@ -55,9 +81,18 @@
             </tr>
         </table>
     </main>
+        <div class="horariosPdf">
+            <a href="./Sn Gamers Horarios.pdf" download="">Descargar horarios en PDF</a>
+        </div>
 
     <footer>
-        <p>AS Impresiones 3D. Todos los derechos reservados.</p>
+        <div class="social-icons">
+            <a href="http://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="http://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="mailto:info@sngamers.com"><i class="fas fa-envelope"></i></a>
+            <a href="https://wa.me/tunumerodetelefono" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <p class="textoFooter">Derechos reservados 2023 -  SN GAMERS</p>
     </footer>
 </body>
 </html>

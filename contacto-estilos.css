@@ -8,11 +8,13 @@
     border: 1px solid #ced4da;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 100px;
 }
 
 .formulario h3 {
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    text-decoration: underline;
 }
 
 .formulario input[type="text"],
@@ -43,7 +45,7 @@
     background-color: #007bff;
     color: #ffffff;
     margin-right: 10px;
-    width: 100%;
+    width: 30%;
 }
 
 .formulario .d-grid button:last-child {
@@ -60,18 +62,20 @@
     margin-bottom: 30px;
 }
 
-.contacto-footer {
-    margin-top: 200px;
-}
 
 .form-floating {
-    height: 400px;
+    height: 250px;
 }
 
 #floatingTextarea {
-    height: 400px;
+    height: 250px;
 }
 
-h1 {
+h2 {
     text-align: center;
+    text-decoration: underline;
+}
+
+#comentario {
+    height: 250px;
 }
